@@ -30,7 +30,7 @@ post-install:
 	${EXAMPLESDIR}/quine \
 	${EXAMPLESDIR}/sort
 
-#	cd ${WRKSRC}/examples/ && cp -p *.bf ${EXAMPLESDIR}
+	cd ${WRKSRC}/examples/ && cp -p *.bf ${EXAMPLESDIR}
 #	cd ${WRKSRC}/examples/ && cp -p asciiart/*.bf ${EXAMPLESDIR}/asciiart
 #	cd ${WRKSRC}/examples/ && cp -p bench/*.bf ${EXAMPLESDIR}/bench
 #	cd ${WRKSRC}/examples/ && cp -p compiler/*.bf ${EXAMPLESDIR}/compiler

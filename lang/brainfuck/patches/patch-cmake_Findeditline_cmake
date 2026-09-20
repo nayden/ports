@@ -1,0 +1,11 @@
+--- cmake/Findeditline.cmake	Fri Nov  5 04:44:39 2021
++++ /tmp/bf/Findeditline.cmake	Sat Sep 19 19:44:29 2026
+@@ -18,7 +18,7 @@
+ # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ # THE SOFTWARE.
+ 
+-find_path(EDITLINE_INCLUDE_DIR editline/readline.h)
++find_path(EDITLINE_INCLUDE_DIR readline/readline.h)
+ find_library(EDITLINE_LIBRARY NAMES edit)
+ 
+ set(EDITLINE_LIBRARIES ${EDITLINE_LIBRARY})

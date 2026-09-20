@@ -1,0 +1,14 @@
+Install manual page to the correct location.
+
+--- CMakeLists.txt.org  Sat Sep 19 18:52:00 2026
++++ CMakeLists.txt      Sat Sep 19 18:52:14 2026
+@@ -66,7 +66,7 @@
+
+ if (ENABLE_CLI)
+      install(TARGETS brainfuck-cli)
+      -    install(FILES man/brainfuck.1 DESTINATION "share/man/man1")
+      +    install(FILES man/brainfuck.1 DESTINATION "man/man1")
+       endif()
+
+ if(INSTALL_EXAMPLES)
+ 
