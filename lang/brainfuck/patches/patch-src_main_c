@@ -1,15 +1,11 @@
-Index: src/main.c
---- src/main.c.orig
-+++ src/main.c
-@@ -21,9 +21,9 @@
+--- src/main.c	Fri Nov  5 04:44:39 2021
++++ /tmp/bf/main.c	Sat Sep 19 19:44:18 2026
+@@ -20,7 +20,7 @@
  #include <ctype.h>
  
  #ifdef BRAINFUCK_EDITLINE_LIB
 -	#include <editline/readline.h>
 +	#include <readline/readline.h>
- 	#ifndef __APPLE__
--		#include <editline/history.h>
-+		#include <readline/history.h>
- 	#endif
  #endif
  
+ #if defined(WIN32) || defined(_WIN32) || defined(__WIN32) && !defined(__CYGWIN__)
